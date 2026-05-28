@@ -32,7 +32,7 @@ export interface ResumeData {
   }>;
   work: Array<{
     company: string;
-    link: string;
+    link?: string;
     badges: string[];
     title: string;
     start: string;
@@ -49,5 +49,10 @@ export interface ResumeData {
       label: string;
       href: string;
     };
+  }>;
+  certifications: string[];
+  languages: Array<{
+    level: string;
+    items: string[];
   }>;
 }

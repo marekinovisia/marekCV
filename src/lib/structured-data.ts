@@ -20,7 +20,7 @@ export function generatePersonStructuredData() {
       telephone: RESUME_DATA.contact.tel,
       contactType: "personal",
     },
-    jobTitle: "Full Stack Engineer",
+    jobTitle: "AI Product Owner",
     worksFor:
       RESUME_DATA.work.length > 0
         ? {
@@ -40,10 +40,10 @@ export function generatePersonStructuredData() {
         "@type": "Place",
         name: RESUME_DATA.location,
       },
-      occupationalCategory: "Software Engineering",
+      occupationalCategory: "Product Management",
       estimatedSalary: {
         "@type": "MonetaryAmountDistribution",
-        name: "Professional software engineer",
+        name: "AI Product Owner",
       },
     })),
     knowsAbout: RESUME_DATA.skills,
