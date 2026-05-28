@@ -94,7 +94,7 @@ export const RESUME_DATA: ResumeData = {
         "AI automation agency I founded in 2019. Delivers AI-powered sales and marketing systems to commercial clients in the EU and US, built around n8n and Claude.",
       highlights: [
         "Workflows cover lead generation, content production, qualification, booking, and nurture sequences.",
-        "Live retainer with a 3-property hospitality group in the EU. US arm in development with a productized 3-tier offering for SMBs.",
+        "Live retainer with hospitality projects in the EU. US arm in development with a productized 3-tier offering for SMBs.",
         "I founded the company, designed the service offerings, and built the systems myself. Operations team handles ongoing client work.",
         "Rule: ~70% of recurring work must be AI-automated. The stack is the product.",
       ],
@@ -134,11 +134,11 @@ export const RESUME_DATA: ResumeData = {
     "Product Management",
     "Artificial Intelligence (AI)",
     "Agentic AI Development",
-    "Rapid Prototyping",
     "Large Language Models (LLMs)",
     "Retrieval-Augmented Generation (RAG)",
     "AWS / AWS Bedrock",
     "n8n",
+    "Alteryx",
   ],
   projects: [],
   certifications: [
