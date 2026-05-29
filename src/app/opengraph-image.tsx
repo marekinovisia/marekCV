@@ -12,6 +12,12 @@ export const size = {
 export const contentType = "image/png";
 
 export default async function Image() {
+  // The edge OG runtime cannot resolve relative image URLs, so build an absolute one.
+  const avatarSrc = new URL(
+    RESUME_DATA.avatarUrl,
+    RESUME_DATA.personalWebsiteUrl,
+  ).toString();
+
   return new ImageResponse(
     <div
       style={{
@@ -35,7 +41,7 @@ export default async function Image() {
       >
         {/* biome-ignore lint/performance/noImgElement: ImageResponse context requires img element */}
         <img
-          src={RESUME_DATA.avatarUrl}
+          src={avatarSrc}
           alt={RESUME_DATA.name}
           style={{
             width: "150px",
