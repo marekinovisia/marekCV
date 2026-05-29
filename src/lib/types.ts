@@ -12,6 +12,8 @@ export interface ResumeData {
   location: string;
   locationLink: string;
   about: string;
+  /** Short description used for social sharing (Open Graph / Twitter cards). */
+  socialDescription: string;
   summary: string;
   avatarUrl: string;
   personalWebsiteUrl: string;

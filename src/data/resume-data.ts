@@ -6,6 +6,8 @@ export const RESUME_DATA: ResumeData = {
   location: "Prague, Czech Republic",
   locationLink: "https://www.google.com/maps/place/Prague",
   about: "AI Product Manager building products in regulated enterprise and as a founder.",
+  socialDescription:
+    "AI Product Manager building and shipping AI products in regulated enterprise and as a founder.",
   summary:
     "I build and ship AI products end-to-end. At Novartis I'm Product Manager for multiple internal applications in compliance and operational reporting domains, where governance, traceability, and human-in-the-loop are non-negotiable. I focus on understanding how people actually work and building products that have measurable business outcomes. I've designed a process for rapid prototyping and deployment at enterprise scale. Inovisia Agency, which I founded in 2019, delivers AI sales and marketing automation for commercial clients, built around n8n and Claude.",
   avatarUrl: "/marek-avatar.jpg",

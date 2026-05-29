@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     url: RESUME_DATA.personalWebsiteUrl,
     siteName: `${RESUME_DATA.name}'s CV`,
     title: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
-    description: RESUME_DATA.about,
+    description: RESUME_DATA.socialDescription,
   },
   robots: {
     index: true,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
-    description: RESUME_DATA.about,
+    description: RESUME_DATA.socialDescription,
     creator: "@BartoszJarocki",
   },
   alternates: {

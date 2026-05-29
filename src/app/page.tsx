@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: RESUME_DATA.about,
   openGraph: {
     title: `${RESUME_DATA.name} - Resume`,
-    description: RESUME_DATA.about,
+    description: RESUME_DATA.socialDescription,
     type: "profile",
     locale: "en_US",
     images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${RESUME_DATA.name} - Resume`,
-    description: RESUME_DATA.about,
+    description: RESUME_DATA.socialDescription,
     images: ["https://cv.jarocki.me/opengraph-image"],
   },
 };
