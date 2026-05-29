@@ -41,6 +41,8 @@ export interface ResumeData {
     end: string | null;
     description: string;
     highlights?: readonly string[];
+    /** When true, force this entry to start on a new page when printing. */
+    breakBefore?: boolean;
   }>;
   skills: string[];
   projects: Array<{

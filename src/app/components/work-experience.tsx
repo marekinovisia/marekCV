@@ -156,7 +156,10 @@ export function WorkExperience({ work }: WorkExperienceProps) {
         aria-labelledby="work-experience"
       >
         {work.map((item) => (
-          <article key={`${item.company}-${item.start}`}>
+          <article
+            key={`${item.company}-${item.start}`}
+            className={cn(item.breakBefore && "print:break-before-page")}
+          >
             <WorkExperienceItem work={item} />
           </article>
         ))}

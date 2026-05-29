@@ -63,7 +63,7 @@ export const RESUME_DATA: ResumeData = {
       start: "2021",
       end: "2025",
       description:
-        "Business Transformation, digital strategy, operating-model design, and major brand launches.",
+        "Senior consultant on the Business Transformation team. Digital strategy, operating-model design, and major brand launches.",
       highlights: [
         "Led digital and data transformation on Sandoz's Pharmacy EvolutiON program, reimagining how Sandoz works with pharmacists. Built the data and digital foundation Agile teams used to deliver integrated insights to leadership.",
         "Designed the operating model for a 300+ associate Integrated Insights team. Then led the org design for 500+ associates during Gene Therapies (GTx) integration into Novartis.",
@@ -92,6 +92,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Founder",
       start: "2019",
       end: null,
+      breakBefore: true,
       description:
         "AI automation agency I founded in 2019. Delivers AI-powered sales and marketing systems to commercial clients in the EU and US, built around n8n and Claude.",
       highlights: [
