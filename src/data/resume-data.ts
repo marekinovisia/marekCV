@@ -5,9 +5,9 @@ export const RESUME_DATA: ResumeData = {
   initials: "MK",
   location: "Prague, Czech Republic",
   locationLink: "https://www.google.com/maps/place/Prague",
-  about: "AI Product Owner building products in regulated enterprise and as a founder.",
+  about: "AI Product Manager building products in regulated enterprise and as a founder.",
   summary:
-    "I build and ship AI products end-to-end. At Novartis I'm Product Owner for multiple internal applications in compliance and operational reporting domains, where governance, traceability, and human-in-the-loop are non-negotiable. I focus on understanding how people actually work and building products that have measurable business outcomes. I've designed a process for rapid prototyping and deployment at enterprise scale. Inovisia Agency, which I founded in 2019, delivers AI sales and marketing automation for commercial clients, built around n8n and Claude.",
+    "I build and ship AI products end-to-end. At Novartis I'm Product Manager for multiple internal applications in compliance and operational reporting domains, where governance, traceability, and human-in-the-loop are non-negotiable. I focus on understanding how people actually work and building products that have measurable business outcomes. I've designed a process for rapid prototyping and deployment at enterprise scale. Inovisia Agency, which I founded in 2019, delivers AI sales and marketing automation for commercial clients, built around n8n and Claude.",
   avatarUrl: "/marek-avatar.jpg",
   personalWebsiteUrl: "https://marek.inovisia.agency",
   contact: {
@@ -41,11 +41,11 @@ export const RESUME_DATA: ResumeData = {
       company: "Novartis",
       link: "https://www.novartis.com",
       badges: ["Product Management", "AI", "Enterprise", "AWS", "Architecture"],
-      title: "Associate Director (Product Owner), ERC Process Innovation",
+      title: "Associate Director (Product Manager), ERC Process Innovation",
       start: "2025",
       end: null,
       description:
-        "Product Owner for several internal apps in compliance, audit, and operational reporting. Lead an IT Operations team. Partner with business and corporate functions across the organization.",
+        "Own product strategy and delivery for several AI-powered internal apps in compliance, audit, and operational reporting. Lead an IT Operations team. Partner with business and corporate functions across the organization.",
       highlights: [
         "Most of my time goes to building AI into the products I own. Design the architecture, prototype hands-on, partner with engineering for the production build.",
         "Regulated environments add real constraints: governance, traceability, and human oversight aren't optional. I build those requirements into the architecture, not bolt them on later.",
