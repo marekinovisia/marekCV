@@ -41,6 +41,14 @@ export const metadata: Metadata = {
     siteName: `${RESUME_DATA.name}'s CV`,
     title: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     description: RESUME_DATA.socialDescription,
+    images: [
+      {
+        url: RESUME_DATA.avatarUrl,
+        width: 400,
+        height: 400,
+        alt: RESUME_DATA.name,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -54,9 +62,10 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     description: RESUME_DATA.socialDescription,
+    images: [RESUME_DATA.avatarUrl],
   },
   alternates: {
     canonical: RESUME_DATA.personalWebsiteUrl,
