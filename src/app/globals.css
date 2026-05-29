@@ -100,4 +100,25 @@
     opacity: 1 !important;
     transform: none !important;
   }
+
+  /* Define the printable page box explicitly. Using an @page margin instead
+     of in-document padding keeps the page inset out of the content flow, so a
+     couple of trailing pixels can't spill onto an extra blank page. */
+  @page {
+    margin: 10mm;
+  }
+
+  /* Drop the large in-document print padding (print:p-11 ≈ 88px top+bottom);
+     the @page margin now provides the inset. overflow:visible prevents the
+     scroll container from forcing an extra page. */
+  #main-content {
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  /* Prevent any container height from forcing an extra page. */
+  html,
+  body {
+    height: auto !important;
+  }
 }
