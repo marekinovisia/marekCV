@@ -56,6 +56,22 @@ export const RESUME_DATA: ResumeData = {
       ],
     },
     {
+      company: "Inovisia Agency",
+      link: "https://www.inovisia.agency",
+      badges: ["AI Automation", "n8n", "Claude", "Founder", "Commercial AI"],
+      title: "Founder",
+      start: "2019",
+      end: null,
+      description:
+        "AI automation agency I founded in 2019. Delivers AI-powered sales and marketing systems to commercial clients in the EU and US, built around n8n and Claude.",
+      highlights: [
+        "Workflows cover lead generation, content production, qualification, booking, and nurture sequences.",
+        "Live retainer with hospitality projects in the EU. US arm in development with a productized 3-tier offering for SMBs.",
+        "I founded the company, designed the service offerings, and built the systems myself. Operations team handles ongoing client work.",
+        "Rule: ~70% of recurring work must be AI-automated. The stack is the product.",
+      ],
+    },
+    {
       company: "Novartis",
       link: "https://www.novartis.com",
       badges: ["Strategy", "Transformation", "Pharma", "Veeva", "Operating Model"],
@@ -83,23 +99,6 @@ export const RESUME_DATA: ResumeData = {
       highlights: [
         "Led design of the Global Medical Expert Engagement Planning module in Veeva CRM. Brought efficiency and transparency to how medical affairs operates at global, regional, and local levels.",
         "Developed roadmap and user stories for sales performance, sample, and strategic account management systems under the Next Generation Engagement program.",
-      ],
-    },
-    {
-      company: "Inovisia Agency",
-      link: "https://www.inovisia.agency",
-      badges: ["AI Automation", "n8n", "Claude", "Founder", "Commercial AI"],
-      title: "Founder",
-      start: "2019",
-      end: null,
-      breakBefore: true,
-      description:
-        "AI automation agency I founded in 2019. Delivers AI-powered sales and marketing systems to commercial clients in the EU and US, built around n8n and Claude.",
-      highlights: [
-        "Workflows cover lead generation, content production, qualification, booking, and nurture sequences.",
-        "Live retainer with hospitality projects in the EU. US arm in development with a productized 3-tier offering for SMBs.",
-        "I founded the company, designed the service offerings, and built the systems myself. Operations team handles ongoing client work.",
-        "Rule: ~70% of recurring work must be AI-automated. The stack is the product.",
       ],
     },
     {
