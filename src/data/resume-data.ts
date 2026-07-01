@@ -42,7 +42,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Novartis",
       link: "https://www.novartis.com",
-      badges: ["Product Management", "AI", "Enterprise", "AWS", "Architecture"],
+      badges: ["Product Management", "AI", "AWS Bedrock", "Databricks"],
       title: "Associate Director (Product Manager), ERC Process Innovation",
       start: "2025",
       end: null,
@@ -50,9 +50,10 @@ export const RESUME_DATA: ResumeData = {
         "Own product strategy and delivery for several AI-powered internal apps in compliance, audit, and operational reporting. Lead an IT Operations team. Partner with business and corporate functions across the organization.",
       highlights: [
         "Most of my time goes to building AI into the products I own. Design the architecture, prototype hands-on, partner with engineering for the production build.",
-        "Regulated environments add real constraints: governance, traceability, and human oversight aren't optional. I build those requirements into the architecture, not bolt them on later.",
+        "Leading the build of an internal Databricks data platform, turning regulated-domain data into a foundation for reporting and AI.",
+        "Governance, traceability, and human oversight aren't optional here. I build them into the architecture, not bolt them on later.",
         "Run RFPs to replace legacy systems. I navigate multi-stakeholder buying, compliance reviews, and procurement gates.",
-        "Also oversee bigger AI use cases jointly with our internal AI team. Process before technology: fix the workflow first, then bring the tools in.",
+        "Oversee larger AI use cases with our internal AI team. Process before technology: fix the workflow, then bring in the tools.",
       ],
     },
     {
@@ -74,7 +75,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Novartis",
       link: "https://www.novartis.com",
-      badges: ["Strategy", "Transformation", "Pharma", "Veeva", "Operating Model"],
+      badges: ["Strategy", "Transformation", "Pharma", "Drug Launch", "Veeva", "Operating Model"],
       title: "Senior Management Consultant, Business Transformation",
       start: "2021",
       end: "2025",
@@ -139,8 +140,8 @@ export const RESUME_DATA: ResumeData = {
     "Large Language Models (LLMs)",
     "Retrieval-Augmented Generation (RAG)",
     "AWS / AWS Bedrock",
+    "Databricks",
     "n8n",
-    "Alteryx",
   ],
   projects: [],
   certifications: [
