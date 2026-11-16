@@ -5,7 +5,7 @@ export const RESUME_DATA: ResumeData = {
   initials: "MK",
   location: "Prague, Czech Republic",
   locationLink: "https://www.google.com/maps/place/Prague",
-  about: "AI Product Manager building products in regulated enterprise and as a founder.",
+  about: "AI Portfolio Manager building products in regulated enterprise and as a founder.",
   socialDescription:
     "AI Product Manager building and shipping AI products in regulated enterprise and as a founder.",
   summary:
