@@ -1,23 +1,18 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
+# Marek Kellner — CV
 
-<h1>minimalist cv <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv"><img src="https://vercel.com/button" alt="Deploy with Vercel" height="24" align="right"></a></h1>
+Source for [marek.inovisia.agency](https://marek.inovisia.agency): a print-friendly online CV.
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-
-simple web app that renders a minimalist CV with print-friendly layout.
+Built with Next.js 16, TypeScript and Tailwind CSS.
 
 ## getting started
 
 ```bash
-git clone https://github.com/BartoszJarocki/cv.git
-cd cv
 pnpm install
 pnpm dev
 # open http://localhost:3000
-# edit src/data/resume-data.ts to customize
 ```
+
+All content lives in `src/data/resume-data.ts`.
 
 ## scripts
 
@@ -86,4 +81,4 @@ docker compose down      # stop the container
 
 ## license
 
-MIT
+MIT. Based on the open-source [minimalist cv](https://github.com/BartoszJarocki/cv) template; see `LICENSE`.
